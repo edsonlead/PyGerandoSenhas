@@ -1,9 +1,9 @@
+# coding=UTF-8
 '''
 Created on 18/08/2013
 
 @author: #edsonlead
 '''
-import pygtk
 #pygtk.require('2.0')
 import gtk
 from random import choice
@@ -52,13 +52,13 @@ class GeraSenhas:
         try:
             comprimento = int(comprimento)
             if comprimento <= 3:
-                    texto = '\n         Comprimento Invalido!\nSenha somente apartir de 4 digitos.'
+                    texto = '\n         Comprimento Inválido!\nSenha somente a partir de 4 digitos.'
                     msg = gtk.MessageDialog(None, 0, gtk.MESSAGE_ERROR, gtk.BUTTONS_OK, texto)
                     msg.set_position(gtk.WIN_POS_CENTER)
                     msg.run()
                     msg.destroy()
         except:
-            texto = '\nComprimento Invalido!'
+            texto = '\nComprimento Inválido!'
             msg = gtk.MessageDialog(None, 0, gtk.MESSAGE_ERROR, gtk.BUTTONS_OK, texto)
             msg.set_position(gtk.WIN_POS_CENTER)
             msg.run()

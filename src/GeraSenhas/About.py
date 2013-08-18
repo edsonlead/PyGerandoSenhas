@@ -1,9 +1,9 @@
+# -*- coding: utf-8 -*- 
 '''
 Created on 18/08/2013
 
 @author: #edsonlead
 '''
-import pygtk
 #pygtk.require('2.0')
 import gtk
 
