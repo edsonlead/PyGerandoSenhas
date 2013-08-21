@@ -10,7 +10,7 @@ from random import choice
 from About import About 
 
 
-class GeraSenhas: 
+class GerarSenhas: 
     
     #Metodo Construtor da Classe
     def __init__(self):
@@ -72,4 +72,4 @@ class GeraSenhas:
                 if comprimento > 3:
                     senha += choice(digitos)
                 self.txtSenha.props.text = senha
-   
+                

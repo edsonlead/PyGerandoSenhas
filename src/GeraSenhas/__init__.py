@@ -2,8 +2,8 @@
 import pygtk
 #pygtk.require('2.0')
 import gtk
-from GeraSenhas import GeraSenhas
+from GerarSenhas import GerarSenhas
 
 
-Gerar = GeraSenhas()
+Gerar = GerarSenhas()
 gtk.main()
